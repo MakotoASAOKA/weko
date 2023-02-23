@@ -1001,6 +1001,7 @@ def ranking():
     page, render_widgets = get_design_layout(
         current_app.config['WEKO_THEME_DEFAULT_COMMUNITY'])
 
+    
     rankings = get_ranking(settings)
 
     x = rankings.get('most_searched_keywords')
