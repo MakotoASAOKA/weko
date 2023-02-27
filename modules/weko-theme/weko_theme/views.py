@@ -64,6 +64,7 @@ def index():
         current_app.config['WEKO_THEME_DEFAULT_COMMUNITY'],
         current_i18n.language)
     page = None
+    
 
     return render_template(
         current_app.config['THEME_FRONTPAGE_TEMPLATE'],
